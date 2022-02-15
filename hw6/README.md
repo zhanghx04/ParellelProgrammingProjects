@@ -2,6 +2,8 @@
 
 Using __CMakeLists.txt__ to run the project
 
+Before to run the code, first unzip file **inc.zip**
+
 ## Steps
 Step 1. go to GitLab Nautilus
 
