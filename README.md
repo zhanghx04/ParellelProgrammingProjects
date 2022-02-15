@@ -1,5 +1,5 @@
 # MIZZOU High Performance Computing Course
-* **Year**: Fll 2021
+* **Year**: Fall 2021
 * **Professor**: Grand Scott
 ---
 
