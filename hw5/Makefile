@@ -1,5 +1,5 @@
 # Location of the CUDA Toolkit
-CUDA_PATH ?= /usr/local/cuda-11.2
+CUDA_PATH ?= /usr/local/cuda-11.7
 
 ##############################
 # start deprecated interface #
@@ -237,7 +237,8 @@ ALL_LDFLAGS += $(addprefix -Xlinker ,$(LDFLAGS))
 ALL_LDFLAGS += $(addprefix -Xlinker ,$(EXTRA_LDFLAGS))
 
 # Common includes and paths for CUDA
-INCLUDES  := -I$(CUDA_PATH)/samples/common/inc/
+# INCLUDES  := -I$(CUDA_PATH)/samples/common/inc/
+INCLUDES := -I./inc/
 LIBRARIES := 
 
 ################################################################################
